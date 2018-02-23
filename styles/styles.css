@@ -1,0 +1,112 @@
+.logo {
+    width: 35px;
+}
+
+.logo .side {
+    width: 35px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.footer.segment {
+    padding: 2em 0 2em 0;
+}
+
+.ui.right.aligned.filter {
+    text-align: right;
+}
+
+.ui.grid {
+    margin-top: 1rem;
+}
+
+.ui.large.secondary.menu {
+    margin-top: 0.6em;
+}
+
+.ui.secondary.menu .item.login {
+    margin: 0 0.2em;
+    padding: 0 0.2em;
+}
+
+.ui.large.image,
+.ui.large.images .image,
+.ui.large.images img,
+.ui.large.images svg {
+    width: 350px;
+}
+
+.ui.segment.custom-form, .ui.segment.contactus {
+    margin: 2.4em 0 2.6em 0;
+}
+
+.book-form .field.no-show,
+.book-form .fields.no-show {
+    display: none;
+}
+
+.ui.mini.image.profile-pic {
+    width: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .ui.card > .image > img, .ui.cards > .card > .image > img {
+        height: 210px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .ui.card > .image > img, .ui.cards > .card > .image > img {
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .ui.card > .image > img, .ui.cards > .card > .image > img {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ui.card > .image > img, .ui.cards > .card > .image > img {
+        height: 380px;
+    }
+}
+
+.header.one-line {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description.two-line {;
+    line-height: 1.4em;
+    height: 2.8em; /* height is 2x line-height, so two lines will display */
+    overflow: hidden; /* prevents extra lines from being visible */
+}
+
+.ui.items > .item .extra .author {
+    margin-top: 1.4em;
+}
+
+.ui.search > .results .result .image {
+    width: 2em;
+}
+
+.ui.search > .results .result .image + .content {
+    margin: 0 3em 0 0;
+}
+
+.ui.items > .item.profile {
+    min-height: 150px;
+}
+
+.ui.basic.black.button a, .ui.basic.black.buttons .button a {
+    color: #1b1c1d !important;
+}
+
+.ui.basic.blue.button a, .ui.basic.blue.buttons .button a {
+    color: #2185d0 !important;
+}

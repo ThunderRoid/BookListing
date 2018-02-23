@@ -1,0 +1,27 @@
+body {
+    background-color: #DADADA;
+}
+
+body > .grid {
+    height: 100%;
+}
+
+.ui.grid {
+    margin-top: 0;
+}
+
+.image {
+    margin-top: -100px;
+}
+
+.column {
+    max-width: 450px;
+}
+
+.ui label, .ui p {
+    text-align: left;
+}
+
+form.login-form {
+    margin-top: 1em;
+}
