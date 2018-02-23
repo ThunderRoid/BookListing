@@ -1,23 +1,25 @@
-Database File location
+![Preview](https://github.com/ThunderRoid/BookListing/raw/master/Image.jpg)
+
+# Database File location
 database/book_listing.sql
 
-Run the file as : localhost/booklisting
+## Run the file as : localhost/booklisting
 booklisting is the name of the folder in which the file is
 
-Admin Account
+## Admin Account
 Username - admin
 Password - 1234567
 
-Regular account
+## Regular account
 Username - hather
 Password - 123456
 
-Project Name: BookListing
+## Project Name: BookListing
 Team Members:
 Aradhana Elisa
 Shifatul Islam	
 
-Introduction:
+## Introduction:
 Website for Books which can be magazines, textbook, storybook or comics. On the homepage there will be listing of all the books which can further be sorted/filtered out from the navigation. User can create his/her profile to add a new book to the website, he can edit his entered book at any time. Admin will the access to edit/delete book for any user.  
 Main class: Books
 Children class: Textbooks, Story books, comics, magazines.
@@ -30,7 +32,7 @@ Comics: Type, Genre
 Comments: userId (foreign key), username, isDeleted, bookId, comment text, date created.
 User: username, firstname, lastname, email address, gender, dob, password, account type, profile pic.
 
-Pages to be created on the website:
+## Pages to be created on the website:
 Login/Register
 Homepage
 4 pages for all the categories: comics, textbooks, storybooks and magazine
@@ -39,7 +41,7 @@ individual books page
 user profile page 
 About us
 
-Functions:
+## Functions:
 Aradhana Elisa
 Login/Register 
 Retrieve the information for the user on the user profile page
